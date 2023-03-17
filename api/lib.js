@@ -34,7 +34,7 @@ class Measurement {
     return new ParseResult(
       {
         name: this.type,
-        reason: `must be in range (exclusive ${this.start} - inclusive ${this.end})`,
+        reason: `must be in range (${this.start} - ${this.end})`,
       },
       false
     );
